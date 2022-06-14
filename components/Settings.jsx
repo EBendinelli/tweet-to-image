@@ -25,6 +25,7 @@ const Settings = ({props}) => {
 	const font_size_small = { base: "13px", md: "15px", lg: "17px" }
 
 	const gradients = [
+        'linear-gradient(110.7deg, rgb(10, 222, 255) 6.3%, rgb(175, 235, 240) 90.6%)',
 	    'linear-gradient(to right, #eecda3, #ef629f)',
 	    'linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%)',
 	    'linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214))',
