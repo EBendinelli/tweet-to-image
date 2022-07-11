@@ -25,7 +25,27 @@ const Settings = ({props}) => {
 	const font_size_small = { base: "13px", md: "15px", lg: "17px" }
 
 	const gradients = [
+        // PI COLOURS
         'linear-gradient(110.7deg, rgb(10, 222, 255) 6.3%, rgb(175, 235, 240) 90.6%)',
+        'linear-gradient(to top right, rgb(10, 222, 255), rgb(175, 235, 240))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(0,100,255))',
+        'linear-gradient(to top right, rgb(30,50,130),  rgb(30,50,50))',
+        'linear-gradient(to top right, rgb(245,50,90), rgb(180,50,90))',
+        'linear-gradient(to top right, rgb(225,25,25), rgb(150,25,25))',
+        'linear-gradient(to top right, rgb(230,145,0), rgb(210,110,0))',
+        'linear-gradient(to top right, rgb(240,230,0), rgb(190,190,10))',
+        'linear-gradient(to top right, rgb(145,200,0), rgb(100,150,0))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(240,230,0))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(30,50,130))',
+        'linear-gradient(to top right, rgb(0,190,255),  rgb(105,30,140))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(245,50,90))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(225,25,25))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(230,145,0))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(240,230,0))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(0,190,0))',
+        'linear-gradient(to top right, rgb(0,190,255), rgb(0,130,0))',
+
+        // Existing colours
 	    'linear-gradient(to right, #eecda3, #ef629f)',
 	    'linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%)',
 	    'linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214))',
@@ -44,7 +64,7 @@ const Settings = ({props}) => {
 	    'linear-gradient(106.8deg, rgb(117, 255, 220) 6%, rgb(163, 216, 255) 47.6%, rgb(248, 215, 251) 87.8%)',
 	    'linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%)',
 	    'linear-gradient(2.1deg, rgb(116, 253, 210) 5%, rgb(0, 191, 247) 95.8%)',
-	    'linear-gradient(110.7deg, rgb(9, 154, 151) 6.3%, rgb(21, 205, 168) 90.6%)'
+        'linear-gradient(110.7deg, rgb(9, 154, 151) 6.3%, rgb(21, 205, 168) 90.6%)',
 	]
 
 

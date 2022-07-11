@@ -14,7 +14,7 @@ import {Text, Box, Flex} from "@chakra-ui/react"
 function App() 
 {
     
-    const [bg, setBg] = useState('linear-gradient(106.8deg, rgb(117, 255, 220) 6%, rgb(163, 216, 255) 47.6%, rgb(248, 215, 251) 87.8%)')
+    const [bg, setBg] = useState('linear-gradient(to top right, rgb(10, 222, 255), rgb(175, 235, 240))')
 
     const tweetRef = useRef(null)
 
